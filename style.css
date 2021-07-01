@@ -1,0 +1,196 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+section#showcase {
+    background: linear-gradient(rgba(0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./background.jpg') center no-repeat;
+    width: 100vw;
+    height: calc(100vh - 200px);
+}
+
+.movie-search-col {
+    display: flex;
+    width: 100vw;
+    height: 75vh;
+    align-items: center;
+    justify-content: center;
+}
+
+input#search {
+    width: 18rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input#search:focus,
+input#search:active {
+    border: none;
+}
+
+.card-body {
+    padding: 0.5rem
+}
+
+li.list-group-item {
+    padding: 0.3rem;
+    margin-bottom: 0.5rem;
+    border: none;
+}
+
+span.result-name {
+    font-size: 1rem;
+}
+
+@media (min-width: 250px) and (max-width:599px) {
+    h1.display-4 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 989px) {
+    h1.display-4 {
+        font-size: 2rem;
+    }
+}
